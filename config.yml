@@ -1,0 +1,18 @@
+language: en
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: CountVectorsFeaturizer
+    analyzer: word
+  - name: DIETClassifier
+    epochs: 100
+    constrain_similarities: true
+
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+    core_fallback_threshold: 0.3
+    core_fallback_action_name: "action_default_fallback"
+    enable_fallback_prediction: true
+
+assistant_id: 20241218-103021-indulgent-walk

@@ -1,0 +1,11 @@
+version: "3.1"
+rules:
+  - rule: Respond to greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to cluster status query
+    steps:
+      - intent: get_cluster_status
+      - action: utter_cluster_status

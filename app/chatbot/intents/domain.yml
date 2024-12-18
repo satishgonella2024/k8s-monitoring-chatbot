@@ -1,0 +1,13 @@
+version: "3.1"
+intents:
+  - get_cluster_status
+  - greet
+
+responses:
+  utter_cluster_status:
+    - text: "Your cluster seems to be running fine!"
+    - text: "I couldn't connect to the cluster. Please check your Kubernetes setup."
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_default:
+    - text: "Sorry, I didn't understand that. Could you rephrase?"

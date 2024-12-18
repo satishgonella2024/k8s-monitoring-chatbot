@@ -1,0 +1,23 @@
+version: "3.1"
+nlu:
+  - intent: get_cluster_status
+    examples: |
+      - How is my cluster doing?
+      - What's the status of my cluster?
+      - Tell me about my Kubernetes cluster
+      - Is the Kubernetes cluster running?
+      - What is the current state of my cluster?
+      - Is everything okay with my cluster?
+      - How's the cluster health?
+      - Can you check the cluster status?
+      - Give me an update on the cluster
+      - Is my cluster operational?
+
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Greetings
+      - Good morning
+      - Good evening

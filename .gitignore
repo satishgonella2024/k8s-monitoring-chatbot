@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Mac OS files
+.DS_Store
+
+# Rasa model files
+models/
+*.tar.gz
+
+# Python debug files
+debug.log
+
+# Python env files
+.env

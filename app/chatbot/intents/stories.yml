@@ -1,0 +1,11 @@
+version: "3.1"
+stories:
+  - story: respond to cluster status query
+    steps:
+      - intent: get_cluster_status
+      - action: utter_cluster_status
+
+  - story: respond to greeting
+    steps:
+      - intent: greet
+      - action: utter_greet

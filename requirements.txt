@@ -1,0 +1,14 @@
+rasa==3.6.20
+rasa-sdk==3.6.2
+kubernetes==31.0.0
+gradio==3.41.2
+requests==2.32.3
+grpcio==1.68.1
+coloredlogs==15.0
+humanfriendly==9.1
+fastapi==0.115.6
+rasa==3.6.20
+kubernetes==31.0.0
+aiohttp==3.9.5
+pydantic==1.10.9
+pytest==7.4.2
