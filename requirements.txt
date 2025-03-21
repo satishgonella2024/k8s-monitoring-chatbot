@@ -1,7 +1,7 @@
 rasa==3.6.20
 rasa-sdk==3.6.2
 kubernetes==31.0.0
-gradio==3.41.2
+gradio==4.44.1
 requests==2.32.3
 grpcio==1.68.1
 coloredlogs==15.0
