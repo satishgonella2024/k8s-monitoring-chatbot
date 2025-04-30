@@ -9,6 +9,6 @@ humanfriendly==9.1
 fastapi==0.115.6
 rasa==3.6.20
 kubernetes==31.0.0
-aiohttp==3.9.5
+aiohttp==3.11.0b0
 pydantic==1.10.9
 pytest==7.4.2
